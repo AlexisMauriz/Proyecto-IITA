@@ -1,6 +1,5 @@
-from formularios.form_maestro_desing import FormularioMaestroDesing
+from formularios.form_maestro_desing import FormularioMaestroDesign  # Importación corregida
 
-app = FormularioMaestroDesing()
+app = FormularioMaestroDesign()  # Instanciación
 app.mainloop()
-
 
