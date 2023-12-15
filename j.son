@@ -1,0 +1,30 @@
+[
+    {
+        "Nombre": "din comba",
+        "Edad": "40",
+        "DNI": "14341651",
+        "Contacto": "4154615566",
+        "cursos": []
+    },
+    {
+        "Nombre": "bonjur cosme fulanito",
+        "Edad": "18",
+        "DNI": "16515684",
+        "Contacto": "65445115177",
+        "cursos": []
+    },
+    {
+        "Nombre": "Cosme Fulanito",
+        "Edad": "22",
+        "DNI": "15844615",
+        "Contacto": "64486416",
+        "cursos": []
+    },
+    {
+        "Nombre": "menganito",
+        "Edad": "15",
+        "DNI": "41516841",
+        "Contacto": "481561654",
+        "cursos": []
+    }
+]

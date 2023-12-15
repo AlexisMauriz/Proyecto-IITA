@@ -1,0 +1,26 @@
+[
+    {
+        "Nombre": "din",
+        "Apellido": "comba",
+        "Edad": "40",
+        "DNI": "14341651",
+        "Contacto": "4154615566",
+        "cursos": []
+    },
+    {
+        "Nombre": "cosmeee",
+        "Apellido": "Fu\u00f1anito",
+        "Edad": "44",
+        "DNI": "54561565488441",
+        "Contacto": "658415641894",
+        "cursos": []
+    },
+    {
+        "Nombre": "John",
+        "Apellido": "Bonjiovi",
+        "Edad": "59",
+        "DNI": "4416156151",
+        "Contacto": "1654515184",
+        "cursos": []
+    }
+]
