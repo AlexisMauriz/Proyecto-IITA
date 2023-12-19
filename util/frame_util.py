@@ -27,28 +27,28 @@ def modificar_a_inscribir_en_curso(frame):
         wid.destroy()
     
     # Etiquetas, cajas de entrada y botones debajo del botón "Inscribir Curso"
-    lbl1 = tk.Label(frame, text="Python I", bg="red")
+    lbl1 = tk.Label(frame, text="Python I", bg="#1488CC")
     lbl1.place(x=120, y=60, width=100, height=30)
     
-    txt1 = tk.Entry(frame, bg="violet")
+    txt1 = tk.Entry(frame, bg="#1488CC")
     txt1.place(x=240, y=60, width=100, height=30)
     
-    lbl2 = tk.Label(frame, text="Python II", bg="red")
+    lbl2 = tk.Label(frame, text="Python II", bg="#1488CC")
     lbl2.place(x=120, y=100, width=100, height=30)
     
-    txt2 = tk.Entry(frame, bg="violet")
+    txt2 = tk.Entry(frame, bg="#1488CC")
     txt2.place(x=240, y=100, width=100, height=30)
     
-    lbl3 = tk.Label(frame, text="Marketing Digital", bg="red")
+    lbl3 = tk.Label(frame, text="Marketing Digital", bg="#1488CC")
     lbl3.place(x=120, y=140, width=100, height=30)
     
-    txt3 = tk.Entry(frame, bg="violet")
+    txt3 = tk.Entry(frame, bg="#1488CC")
     txt3.place(x=240, y=140, width=100, height=30)
     
-    lbl4 = tk.Label(frame, text="Robótica", bg="red")
+    lbl4 = tk.Label(frame, text="Robótica", bg="#1488CC")
     lbl4.place(x=120, y=180, width=100, height=30)
     
-    txt4 = tk.Entry(frame, bg="violet")
+    txt4 = tk.Entry(frame, bg="#1488CC")
     txt4.place(x=240, y=180, width=100, height=30)
     
     boton = tk.Button(frame, text="Inscribir Curso", command=inscribir_en_curso)
@@ -75,34 +75,34 @@ def modificar_a_inscribir_alumno(frame):
     # Coordenada inicial en y
     y_coordinate = 60
     
-    lbl1 = tk.Label(frame, text="Nombre", bg="red")
+    lbl1 = tk.Label(frame, text="Nombre", bg="#1488CC")
     lbl1.place(x=120, y=y_coordinate, width=100, height=30)
     
-    txt1 = tk.Entry(frame, bg="violet")
+    txt1 = tk.Entry(frame, bg="#1488CC")
     txt1.place(x=240, y=y_coordinate, width=100, height=30)
     
-    lbl2 = tk.Label(frame, text="Apellido", bg="red")
+    lbl2 = tk.Label(frame, text="Apellido", bg="#1488CC")
     lbl2.place(x=120, y=y_coordinate + 40, width=100, height=30)
     
-    txt2 = tk.Entry(frame, bg="violet")
+    txt2 = tk.Entry(frame, bg="#1488CC")
     txt2.place(x=240, y=y_coordinate + 40, width=100, height=30)
     
-    lbl3 = tk.Label(frame, text="Edad", bg="red")
+    lbl3 = tk.Label(frame, text="Edad", bg="#1488CC")
     lbl3.place(x=120, y=y_coordinate + 80, width=100, height=30)
     
-    txt3 = tk.Entry(frame, bg="violet")
+    txt3 = tk.Entry(frame, bg="#1488CC")
     txt3.place(x=240, y=y_coordinate + 80, width=100, height=30)
     
-    lbl4 = tk.Label(frame, text="DNI", bg="red")
+    lbl4 = tk.Label(frame, text="DNI", bg="#1488CC")
     lbl4.place(x=120, y=y_coordinate + 120, width=100, height=30)
     
-    txt4 = tk.Entry(frame, bg="violet")
+    txt4 = tk.Entry(frame, bg="#1488CC")
     txt4.place(x=240, y=y_coordinate + 120, width=100, height=30)
     
-    lbl5 = tk.Label(frame, text="Contacto", bg="red")
+    lbl5 = tk.Label(frame, text="Contacto", bg="#1488CC")
     lbl5.place(x=120, y=y_coordinate + 160, width=100, height=30)
     
-    txt5 = tk.Entry(frame, bg="violet")
+    txt5 = tk.Entry(frame, bg="#1488CC")
     txt5.place(x=240, y=y_coordinate + 160, width=100, height=30)
     
     
@@ -113,34 +113,34 @@ def modificar_a_planilla_del_curso(frame):
     boton = tk.Button(frame, text="Planilla del curso")
     boton.pack(pady=20)
   
-    lbl1 = tk.Label(frame, text="Profesor Titular", bg="red")
+    lbl1 = tk.Label(frame, text="Profesor Titular", bg="#1488CC")
     lbl1.place(x=120, y=50, width=100, height=30)
   
-    txt1 = tk.Entry(frame, bg="violet")
+    txt1 = tk.Entry(frame, bg="#1488CC")
     txt1.place(x=240, y=50, width=100, height=30)
   
-    lbl2 = tk.Label(frame, text="Profesor Adjunto", bg="red")
+    lbl2 = tk.Label(frame, text="Profesor Adjunto", bg="#1488CC")
     lbl2.place(x=120, y=90, width=100, height=30)
     
-    txt2 = tk.Entry(frame, bg="violet")
+    txt2 = tk.Entry(frame, bg="#1488CC")
     txt2.place(x=240, y=90, width=100, height=30)
     
-    lbl3 = tk.Label(frame, text="Tema del Día", bg="red")
+    lbl3 = tk.Label(frame, text="Tema del Día", bg="#1488CC")
     lbl3.place(x=120, y=130, width=100, height=30)
     
-    txt3 = tk.Entry(frame, bg="violet")
+    txt3 = tk.Entry(frame, bg="#1488CC")
     txt3.place(x=240, y=130, width=100, height=30)
     
-    lbl4 = tk.Label(frame, text="Trabajo Practicos", bg="red")
+    lbl4 = tk.Label(frame, text="Trabajo Practicos", bg="#1488CC")
     lbl4.place(x=120, y=170, width=100, height=30)
     
-    txt4 = tk.Entry(frame, bg="violet")
+    txt4 = tk.Entry(frame, bg="#1488CC")
     txt4.place(x=240, y=170, width=100, height=30)
     
-    lbl5 = tk.Label(frame, text="Examenes", bg="red")
+    lbl5 = tk.Label(frame, text="Examenes", bg="#1488CC")
     lbl5.place(x=120, y=170, width=100, height=30)
     
-    txt5 = tk.Entry(frame, bg="violet")
+    txt5 = tk.Entry(frame, bg="#1488CC")
     txt5.place(x=240, y=170, width=100, height=30)
     
     
@@ -152,17 +152,17 @@ def modificar_a_planilla_del_alumno(frame):
     boton = tk.Button(frame, text="Planilla del Alumno")
     boton.pack(pady=20)
   
-    lbl1 = tk.Label(frame, text="Nombre y Apellido", bg="red")
+    lbl1 = tk.Label(frame, text="Nombre y Apellido", bg="#1488CC")
     lbl1.place(x=120, y=50, width=100, height=30)
     
-    txt1 = tk.Entry(frame, bg="violet")
+    txt1 = tk.Entry(frame, bg="#1488CC")
     txt1.place(x=240, y=50, width=100, height=30)
     
-    lbl2 = tk.Label(frame, text="Asistencias", bg="red")
+    lbl2 = tk.Label(frame, text="Asistencias", bg="#1488CC")
     lbl2.place(x=120, y=90, width=100, height=30)
     
-    txt2 = tk.Entry(frame, bg="violet")
+    txt2 = tk.Entry(frame, bg="#1488CC")
     txt2.place(x=240, y=90, width=100, height=30)
     
-    lbl3 = tk.Label(frame, text="Notas TP", bg="red")
+    lbl3 = tk.Label(frame, text="Notas TP", bg="#1488CC")
     lbl2.place(x=120, y=90, width=100, height=30)

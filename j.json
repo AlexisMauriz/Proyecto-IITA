@@ -22,5 +22,37 @@
         "DNI": "4416156151",
         "Contacto": "1654515184",
         "cursos": []
+    },
+    {
+        "Nombre": "John Francis",
+        "Apellido": "Bonjiovi",
+        "Edad": "61",
+        "DNI": "684561545",
+        "Contacto": "67845114",
+        "cursos": []
+    },
+    {
+        "Nombre": "Cosme",
+        "Apellido": "Fulanito",
+        "Edad": "54",
+        "DNI": "654151561",
+        "Contacto": "875156484",
+        "cursos": []
+    },
+    {
+        "Nombre": "John Francis",
+        "Apellido": "Bonjovi",
+        "Edad": "61",
+        "DNI": "86165448",
+        "Contacto": "6541561584",
+        "cursos": []
+    },
+    {
+        "Nombre": "Seba",
+        "Apellido": "Pompombe",
+        "Edad": "18",
+        "DNI": "65231518",
+        "Contacto": "648456154",
+        "cursos": []
     }
 ]

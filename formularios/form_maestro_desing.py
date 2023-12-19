@@ -15,7 +15,7 @@ class FormularioMaestroDesign(tk.Tk):
         self.controles_menu_lateral()
         self.controles_cuerpo()
         self.minsize(700, 500)  # Tamaño mínimo (ancho x alto)
-        self.maxsize(700, 500)  # Tamaño máximo (ancho x alto)
+        self.maxsize(900, 700)  # Tamaño máximo (ancho x alto)
 
     def config_window(self):
         self.title("Python GUI")
@@ -64,10 +64,10 @@ class FormularioMaestroDesign(tk.Tk):
         self.buttonSettings = tk.Button(self.menu_lateral, command= lambda: modificar_a_planilla_del_alumno(self.cuerpo_principal))
       
         buttons_info = [
-            ("Inscribir Curso", "\uf109", self.buttonDashBoard),
-            ("Inscribir Alumno", "\uf109", self.buttonProfile),
-            ("Plantilla Curso", "\uf109", self.buttonPicture),
-            ("Plantilla Alumno", "\uf109", self.buttonSettings)
+            ("Inscribir Curso", "\uf13e", self.buttonDashBoard),
+            ("Inscribir Alumno", "\uf13e", self.buttonProfile),
+            ("Plantilla Curso", "\uf13e", self.buttonPicture),
+            ("Plantilla Alumno", "\uf13e", self.buttonSettings)
         ]
       
         for text, icon, button in buttons_info:
@@ -96,7 +96,7 @@ class FormularioMaestroDesign(tk.Tk):
       
     def toggle_panel(self):
         if self.menu_lateral.winfo_ismapped():
-            self.menu_lateral.pack_forget()
+            self.menu_lateral.place_forget()
         else:
             self.menu_lateral.pack(side=tk.LEFT, fill="y")
 
