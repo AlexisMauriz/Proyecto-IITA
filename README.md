@@ -166,3 +166,4 @@ Para utilizar este código, asegúrate de tener una función `load_image()` defi
 
 - La función `load_image()` debe estar definida correctamente y ajustada para cargar una imagen desde la ruta especificada con las dimensiones proporcionadas.
 - Asegúrate de que la ruta proporcionada sea válida y apunte a la ubicación correcta del archivo de imagen.
+# Proyecto-IITA
